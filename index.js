@@ -52,7 +52,7 @@ function gantiBackground(m,h)
 //event xcross x and y
 
 const x = document.body;
-x.addEventListener('mousemove touchmove',function()
+x.addEventListener('mousemove',function()
 {
     const xPos =Math.round( (event.clientX/window.innerWidth)*255);
     const yPos =Math.round( (event.clientY/window.innerHeight)*255);
